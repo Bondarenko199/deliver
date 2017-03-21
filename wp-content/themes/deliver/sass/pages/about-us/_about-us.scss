@@ -1,0 +1,15 @@
+.about-us-text-container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.about-us-headline {
+  font: 1.1em 'Novecentosanswide-DemiBold', sans-serif;
+  &.margin {
+    margin-bottom: 1.5em;
+  }
+}
+
+.about-us-text {
+  font: 1em 'HelveticaNeue', sans-serif;
+}

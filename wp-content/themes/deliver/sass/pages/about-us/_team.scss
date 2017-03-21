@@ -1,0 +1,32 @@
+.team {
+  background: #efefef;
+}
+
+.team-header {
+  border-bottom: 1px solid;
+  &.margin {
+    margin-bottom: 1.2em;
+  }
+}
+
+.team-title {
+  font: 1.1em 'Novecentosanswide-DemiBold', sans-serif;
+  &.margin {
+    margin: 1.1em 0;
+  }
+}
+
+.position {
+  display: block;
+  font: 1em 'HelveticaNeue',sans-serif;
+  &.margin {
+    margin-bottom: 1.5em;
+  }
+}
+
+.team-text {
+  font: 1em 'HelveticaNeue', sans-serif;
+  &.margin {
+    margin-bottom:1.5em
+  };
+}

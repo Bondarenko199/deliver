@@ -1,0 +1,25 @@
+.do-you-like {
+  padding: 7.87em 0 1em;
+}
+
+.do-you-like-header {
+  padding-top: 3.75em;
+  border-top: 1px solid #666262;
+}
+
+.do-you-like-button-container {
+  &.margin {
+    margin-bottom: 1em;
+  }
+}
+
+.do-you-like-button {
+  background: #87b672;
+  border: none;
+  &.margin {
+    margin-bottom: 1.9em;
+  }
+  &:hover {
+    color: #9b9999;
+  }
+}

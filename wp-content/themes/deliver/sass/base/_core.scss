@@ -1,0 +1,103 @@
+section,
+footer {
+  padding: 3.75em 0;
+}
+
+body {
+  font: 1em 'HelveticaNeue', sans-serif;
+  color: #9b9999 !important;
+}
+
+a,
+a:visited {
+  color: $dark-text;
+}
+
+.section-header {
+  &.margin {
+    margin-bottom: 1.75em;
+  }
+  .header-headline {
+    font: 1.37em "Novecentosanswide-DemiBold", sans-serif;
+    text-transform: uppercase;
+    &.margin {
+      margin-bottom: 1.2em;
+    }
+  }
+  .header-text {
+    font: 1em 'HelveticaNeue', sans-serif;
+    &.margin {
+      margin-bottom: 1.75em;
+    }
+  }
+}
+
+.main-text {
+  font-size: .87em;
+  &.margin {
+    margin-bottom: 2.2em;
+  }
+}
+
+.main-button {
+  padding: 1em 1.2rem;
+  font: .87em 'Novecentosanswide-DemiBold', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: $light-text;
+  border: 2px solid;
+  background: transparent;
+  transition: .3s ease-in-out;
+  &:hover {
+    color: $color-text !important;
+  }
+}
+
+.light-text {
+  color: $light-text !important;
+}
+
+.color-text {
+  color: $color-text;
+}
+
+.dark-text {
+  color: $dark-text;
+}
+
+.light-bg {
+  background: $light-bg;
+}
+
+.color-bg {
+  background: $color-bg;
+}
+
+.dark-bg {
+  background: $dark-bg;
+}
+
+.light-border {
+  border-bottom: 1px solid #fff;
+}
+
+.dark-border {
+  border-bottom: 1px solid #666262;
+}
+
+.color-hover {
+  transition: .3s ease-in-out;
+  &:hover {
+    color: $color-bg;
+  }
+}
+
+.page-intro {
+  padding: 11.87em 0 0;
+}
+
+.page-header {
+  padding: 2.2em 0;
+  background: url("../images/blog-intro-bg.png") 50% 50% no-repeat;
+  background-size: cover;
+}

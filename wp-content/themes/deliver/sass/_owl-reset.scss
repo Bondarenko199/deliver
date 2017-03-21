@@ -1,0 +1,62 @@
+.owl-carousel {
+  padding: 7.5em 0 0;
+}
+
+.owl-item {
+  margin-bottom: 5.68em;
+}
+
+.slider-headline {
+  font: 2.25em 'Novecentosanswide-DemiBold', sans-serif;
+  &.margin {
+    margin-bottom: .85em;
+  }
+}
+
+.slider-text {
+  font-size: 1.1em;
+  &.margin {
+    margin-bottom: 1.48em;
+  }
+}
+
+.main-button.margin {
+  margin-bottom: 1em;
+}
+
+
+
+.owl-prev,
+.owl-next {
+  width: 7vmin;
+  height: 7vmin;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .2;
+  transition: .3s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.owl-prev {
+  left: -5vw;
+  background: url("../images/previous.png") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+.owl-next {
+  right: -5vw;
+  background: url("../images/next.png") 50% 50% no-repeat !important;
+  background-size: cover !important;
+}
+
+.owl-dot {
+  span {
+    background: #fff !important;
+  }
+  &.active span {
+    transform: scale(1.5);
+  }
+}

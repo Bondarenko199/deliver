@@ -1,0 +1,30 @@
+.post-media-container {
+  margin-bottom: 2em;
+}
+
+.post-title {
+  margin-bottom: 2em;
+}
+
+.post-taxonomies-list {
+  &.margin {
+    margin-bottom: 1.7em;
+  }
+  li {
+    text-align: center;
+    font-size: .8em;
+  }
+  li.padding {
+    padding: 1em;
+    background: #efefef;
+  }
+  li.margin {
+    margin-right: .5em;
+  }
+}
+
+.post-text-container {
+  padding: 0 0 3.5em;
+  font-size: 1em;
+  border-bottom: 1px solid;
+}

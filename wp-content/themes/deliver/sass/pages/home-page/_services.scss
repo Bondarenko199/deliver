@@ -1,0 +1,38 @@
+.service-container {
+  padding: 2em 1em 1em;
+}
+
+.service-img-container {
+  width: 100px;
+  height: 100px;
+  &.margin {
+    margin-bottom: 1.9em;
+  }
+  & img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.service-title {
+  font: 1em 'Novecentosanswide-DemiBold', sans-serif;
+  &.margin {
+    margin-bottom: 1.4em;
+  }
+}
+
+.service-text {
+  &.margin {
+    margin-bottom: 1em;
+  }
+}
+
+.service-button {
+  color: #87b672 !important;
+  border: none;
+  transition: .3s ease-in-out;
+  &:hover {
+    color: #666262 !important;
+  }
+}
